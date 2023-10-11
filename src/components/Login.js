@@ -16,9 +16,11 @@ const Login = () => {
         </div>
         <div className='flex'>
           <h3 className='text-lg px-5 font-light hidden sm:block'>Join now</h3>
-          <h3 className='text-lg text-blue-900 px-5 font-semibold border border-blue-900 rounded-full hover:bg-blue-100 transition'>
-            Sign In
-          </h3>
+          <Link to='/home'>
+            <h3 className='text-lg text-blue-900 px-5 font-semibold border border-blue-900 rounded-full hover:bg-blue-100 transition'>
+              Sign In
+            </h3>
+          </Link>
         </div>
       </nav>
       <section className='flex flex-wrap justify-center items-center m-auto lg:w-full'>

@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <div className='flex items-center justify-between ml-3 text-center'>
         <Link to='/search' className='lg:hidden '>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img
               className='w-4 h-4'
               src='https://cdn-icons-png.flaticon.com/512/3031/3031293.png'
@@ -36,25 +36,25 @@ const Header = () => {
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img className='w-6 h-6' src='/images/nav-home.svg' alt='home' />
             <span className='text-xs hidden sm:block'>Home</span>
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img className='w-6 h-6' src='/images/nav-network.svg' alt='home' />
             <span className='text-xs hidden sm:block '>Network</span>
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img className='w-6 h-6' src='/images/nav-jobs.svg' alt='home' />
             <span className='text-xs hidden sm:block '>Jobs</span>
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img
               className='w-6 h-6'
               src='/images/nav-messaging.svg'
@@ -64,7 +64,7 @@ const Header = () => {
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img
               className='w-6 h-6'
               src='/images/nav-notifications.svg'
@@ -74,13 +74,13 @@ const Header = () => {
           </div>
         </Link>
         <Link to='/home'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img className='w-6 h-6' src='/images/nav-home.svg' alt='home' />
             <span className='text-xs hidden sm:block '>Me</span>
           </div>
         </Link>
         <Link to='/home' className='hidden sm:block'>
-          <div className='list-none flex flex-col items-center justify-center px-3 sm:px-5'>
+          <div className='list-none flex flex-col items-center justify-center px-2 sm:px-5'>
             <img className='w-6 h-6' src='/images/nav-work.svg' alt='home' />
             <span className='text-xs hidden sm:block '>For Business</span>
           </div>
