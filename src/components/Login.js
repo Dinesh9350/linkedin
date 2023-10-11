@@ -15,15 +15,15 @@ const Login = () => {
           </Link>
         </div>
         <div className='flex'>
-          <h3 className='text-lg px-5 font-light'>Join now</h3>
+          <h3 className='text-lg px-5 font-light hidden sm:block'>Join now</h3>
           <h3 className='text-lg text-blue-900 px-5 font-semibold border border-blue-900 rounded-full hover:bg-blue-100 transition'>
             Sign In
           </h3>
         </div>
       </nav>
-      <section className='flex flex-wrap justify-center items-center m-auto lg:w-full'>
+      <section className='flex flex-wrap justify-center items-center m-auto mt-5 lg:w-full'>
         <div className=''>
-          <h3 className='text-blue-800 text-xl md:text-3xl text-center p-5 '>
+          <h3 className='text-blue-800 text-3xl text-center p-5 '>
             Welcome to your professional community
           </h3>
           <form
