@@ -31,8 +31,8 @@ const Login = () => {
             action=''
           >
             <img
-              className='w-5'
-              src='https://assets.stickpng.com/images/5847f9cbcef1014c0b5e48c8.png'
+              className='w-6'
+              src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png'
               alt=''
             />
             <h3 className='px-3'>Continue with Google</h3>
