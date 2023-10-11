@@ -32,7 +32,7 @@ const Login = () => {
           >
             <img
               className='w-5'
-              src='https://assets.stickpng.com/images/5847f9cbcef1014c0b5e48c8.png'
+              src='../../public/images/google_logo.png'
               alt=''
             />
             <h3 className='px-3'>Continue with Google</h3>
