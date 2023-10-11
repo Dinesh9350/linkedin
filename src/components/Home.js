@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './Header';
 
 const Home = () => {
   return (
     <div>
-      <nav>Navbar</nav>
+      <Header />
+      <div className='bg-zinc-50'>Home</div>
     </div>
   );
 };
