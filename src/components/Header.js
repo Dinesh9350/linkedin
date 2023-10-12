@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-      <nav className='flex justify-center sm:justify-between items-center whitespace-nowrap m-2 sm:m-1 mx-5 lg:mx-10 xl:mx-32 '>
+      <nav className='flex justify-between items-center whitespace-nowrap m-2 sm:m-1 mx-5 md:mx-20 lg:mx-10 xl:mx-32 '>
         <div className='flex'>
           <Link to='/'>
             <img
@@ -26,9 +26,9 @@ const Header = () => {
             />
           </div>
         </div>
-        <div className='flex justify-center items-center m-1 mx-auto sm:mx-0'>
+        <div className='flex justify-center items-center m-1 sm:pl-2 lg:pl-0 mx-auto sm:mx-0'>
           <Link to='/search' className='lg:hidden '>
-            <div className='list-none flex flex-col items-center px-5 sm:px-5'>
+            <div className='list-none flex flex-col items-center px-5'>
               <img
                 className='w-4 h-4'
                 src='https://cdn-icons-png.flaticon.com/512/3031/3031293.png'
@@ -82,7 +82,7 @@ const Header = () => {
             <div className='list-none flex flex-col items-center px-2 sm:px-5'>
               <img
                 className='w-6 h-6'
-                src='https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png'
+                src='https://www.kindpng.com/picc/m/10-104902_simple-user-icon-user-icon-white-png-transparent.png'
                 alt='user'
               />
               <span className='flex'>
@@ -90,7 +90,7 @@ const Header = () => {
                 <img
                   className='hidden lg:inline'
                   src='/images/down-icon.svg'
-                  alt='user'
+                  alt='down logo'
                 />
               </span>
             </div>
@@ -100,7 +100,7 @@ const Header = () => {
               <img className='w-6 h-6' src='/images/nav-work.svg' alt='home' />
               <span className='flex'>
                 <span className='text-xs hidden sm:block '>For Business</span>
-                <img src='/images/down-icon.svg' alt='user' />
+                <img src='/images/down-icon.svg' alt='down logo' />
               </span>
             </div>
           </Link>

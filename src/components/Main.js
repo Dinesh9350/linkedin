@@ -3,11 +3,11 @@ import React from 'react';
 const Main = () => {
   return (
     <div>
-      <section className='bg-white m-5 mb-2 rounded-xl text-sm border relative'>
+      <section className='bg-white sm:m-5 rounded-xl text-sm border relative my-5'>
         <div className='flex items-center p-4'>
           <img
-            className='h-11 w-11 border border-gray-400 rounded-full'
-            src='https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png'
+            className='h-12 w-12 border border-gray-400 rounded-full'
+            src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
             alt=''
           />
           <input
@@ -17,11 +17,11 @@ const Main = () => {
           />
         </div>
       </section>
-      <section className='bg-white m-5 mb-2  rounded-xl text-sm border relative'>
+      <section className='bg-white sm:m-5 mb-2  rounded-xl text-sm border relative'>
         <div className='flex items-center px-4 pt-4'>
           <img
             className='h-11 w-11 border border-gray-400 rounded-full'
-            src='https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png'
+            src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
             alt=''
           />
           <div className='ml-2 text-xs text-gray-500'>

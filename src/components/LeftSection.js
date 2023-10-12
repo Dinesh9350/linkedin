@@ -7,12 +7,12 @@ const LeftSection = () => {
         {/* <div className='h-12 w-[221px] bg-gray-200 absolute top-15 rounded-lg'></div> */}
         <div className='p-3 text-center z-10'>
           <img
-            className='w-16 h-16 mx-auto'
-            src='https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png'
+            className='w-16 h-16 mx-auto border border-gray-400 rounded-full'
+            src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
             alt='user'
           />
 
-          <h3 className='font-semibold'>Dinesh</h3>
+          <h3 className='font-semibold pt-2 text-base'>Dinesh</h3>
           <h5 className='text-xs text-gray-500'>React.js</h5>
         </div>
         <hr />

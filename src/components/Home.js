@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <section className='bg-zinc-100 grid md:grid-flow-col justify-stretch px-5 xl:px-48'>
-        <div className='col-span-1 hidden md:block'>
+      <section className='bg-zinc-100 grid md:grid-flow-col justify-stretch sm:px-5 xl:px-48'>
+        <div className='col-span-2 hidden md:block'>
           <LeftSection />
         </div>
-        <div className='col-span-9'>
+        <div className='col-span-7'>
           <Main />
         </div>
-        <div className='col-span-2 hidden lg:block'>
+        <div className='col-span-3 hidden lg:block'>
           <RightSection />
         </div>
       </section>
