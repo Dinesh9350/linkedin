@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-      <nav className='flex justify-between items-center whitespace-nowrap m-2 sm:m-1 mx-5 md:mx-20 lg:mx-10 xl:mx-32 '>
+      <nav className='flex justify-between items-center whitespace-nowrap m-2 sm:m-1 mx-2 md:mx-20 lg:mx-10 xl:mx-32 '>
         <div className='flex'>
           <Link to='/'>
             <img
