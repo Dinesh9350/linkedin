@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <div className='flex justify-center items-center m-1 sm:ml-2 lg:pl-0 mx-auto sm:mx-0'>
           <Link to='/search' className='lg:hidden '>
-            <div className='list-none flex flex-col items-center px-5'>
+            <div className='list-none flex flex-col items-center px-3 sm:px-5'>
               <img
                 className='w-4 h-4'
                 src='https://cdn-icons-png.flaticon.com/512/3031/3031293.png'
@@ -47,7 +47,7 @@ const Header = () => {
               <img
                 className='w-6 h-6'
                 src='/images/nav-network.svg'
-                alt='home'
+                alt='network'
               />
               <span className='text-xs hidden sm:block '>Network</span>
             </div>
