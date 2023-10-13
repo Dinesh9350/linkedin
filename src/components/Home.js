@@ -15,7 +15,7 @@ const Home = () => {
         <div className='col-span-7'>
           <Main />
         </div>
-        <div className='col-span-3 hidden lg:block'>
+        <div className='col-span-2 hidden lg:inline-block'>
           <RightSection />
         </div>
       </section>

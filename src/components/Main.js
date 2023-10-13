@@ -35,11 +35,63 @@ const Main = () => {
           Learning to code is a grind. What matters is that you stay positive,
           keep coding and trying new stuff.
         </article>
-        <div className='border border-gray-200'>
+        <div className=''>
           <img
             src='https://www.imaginarycloud.com/blog/content/images/size/w754/2022/07/nextjs-vs-react-2.jpg'
             alt=''
           />
+        </div>
+        <div className='flex ml-5 py-2'>
+          <img
+            className='z-0'
+            src='https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt'
+            alt='Like'
+          />
+          <img
+            className='z-10'
+            src='https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22'
+            alt='love'
+          />
+          <img
+            className='z-20'
+            src='https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus'
+            alt='insightful'
+          />
+        </div>
+        <hr />
+        <div className='flex justify-around items-center p-2 text-xs font-bold '>
+          <div className='flex items-center'>
+            <img
+              className='w-5'
+              src='https://www.pngall.com/wp-content/uploads/15/Like-Button-PNG-HD-Image.png'
+              alt='like'
+            />
+            <span className='px-1'>Like</span>
+          </div>
+          <div className='flex items-center'>
+            <img
+              className='w-6'
+              src='https://iconape.com/wp-content/png_logo_vector/comment-dots.png'
+              alt='comments'
+            />
+            <span className='px-1'>Comments</span>
+          </div>
+          <div className='flex items-center'>
+            <img
+              className='w-7'
+              src='https://www.svgrepo.com/show/334212/repost.svg'
+              alt=''
+            />
+            <span className='px-1'>Repost</span>
+          </div>
+          <div className='flex items-center'>
+            <img
+              className='w-6'
+              src='https://iconape.com/wp-content/files/xh/367685/png/367685.png'
+              alt='send'
+            />
+            <span className='px-1'>Send</span>
+          </div>
         </div>
       </section>
       {/* <section className='bg-white m-5 mb-2 rounded-xl text-sm border relative'>
