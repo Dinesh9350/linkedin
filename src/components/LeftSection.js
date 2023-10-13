@@ -13,7 +13,9 @@ const LeftSection = () => {
           />
 
           <h3 className='font-semibold pt-2 text-base'>Dinesh</h3>
-          <h5 className='text-xs text-gray-500'>React.js</h5>
+          <h5 className='text-xs text-gray-500'>
+            React JS | Javascript | HTML5 | CSS3 | Bootstrap | Tailwind CSS
+          </h5>
         </div>
         <hr />
         <div className=' p-3'>

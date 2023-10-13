@@ -28,17 +28,19 @@ const Login = () => {
           <h3 className='text-blue-800 text-xl sm:text-3xl text-center p-5 '>
             Welcome to your professional community
           </h3>
-          <form
-            className='flex justify-center items-center border border-gray-300 text-gray-700 mx-5 lg:mx-20 py-2 px-3 rounded-full cursor-pointer  transition hover:bg-gray-200'
-            action=''
-          >
-            <img
-              className='w-6'
-              src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png'
-              alt=''
-            />
-            <h3 className='px-3'>Continue with Google</h3>
-          </form>
+          <Link to='/home'>
+            <form
+              className='flex justify-center items-center border border-gray-300 text-gray-700 mx-5 lg:mx-20 py-2 px-3 rounded-full cursor-pointer  transition hover:bg-gray-200'
+              action=''
+            >
+              <img
+                className='w-6'
+                src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png'
+                alt=''
+              />
+              <h3 className='px-3'>Continue with Google</h3>
+            </form>
+          </Link>
         </div>
         <div className='p-10 md:w-1/2'>
           <img

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <section className='bg-zinc-100 grid md:grid-flow-col justify-stretch sm:px-5 xl:px-48'>
+      <section className='bg-zinc-100 grid md:grid-flow-col justify-stretch sm:px-5 xl:px-32 2xl:px-48'>
         <div className='col-span-2 hidden md:block'>
           <LeftSection />
         </div>

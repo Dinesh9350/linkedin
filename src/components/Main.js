@@ -3,24 +3,24 @@ import React from 'react';
 const Main = () => {
   return (
     <div>
-      <section className='bg-white sm:m-5 rounded-xl text-sm border relative my-5'>
+      <section className='bg-white md:m-5 rounded-xl text-sm mt-2 sm:mt-5 border border-gray-300'>
         <div className='flex items-center p-4'>
           <img
-            className='h-12 w-12 border border-gray-400 rounded-full'
+            className='h-10 sm:h-12 w-10 sm:w-12 border border-gray-400 rounded-full'
             src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
             alt=''
           />
           <input
-            className='ml-2 h-11 w-full border border-gray-400 rounded-full px-5'
+            className='ml-2 h-10 sm:h-12 w-full border border-gray-400 rounded-full px-5'
             type='text'
             placeholder='Start a post'
           />
         </div>
       </section>
-      <section className='bg-white sm:m-5 mb-2  rounded-xl text-sm border relative'>
+      <section className='bg-white md:m-5 mt-2 rounded-xl text-sm border border-gray-300 relative'>
         <div className='flex items-center px-4 pt-4'>
           <img
-            className='h-11 w-11 border border-gray-400 rounded-full'
+            className='h-12 w-12 border border-gray-400 rounded-full'
             src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
             alt=''
           />

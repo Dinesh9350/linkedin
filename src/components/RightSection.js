@@ -8,14 +8,14 @@ const RightSection = () => {
         <div className='flex py-2'>
           <div>●</div>
           <div className='px-2'>
-            <h3 className='font-semibold'> React Developers</h3>
+            <h3 className='font-semibold'>Israel Hamas War: Latest Update</h3>
             <h5 className='text-gray-500 text-xs'>Top news ● 3,123 readers </h5>
           </div>
         </div>
         <div className='flex py-2'>
           <div>●</div>
           <div className='px-2'>
-            <h3 className='font-semibold'>CS50</h3>
+            <h3 className='font-semibold'>React Developers</h3>
             <h5 className='text-gray-500 text-xs'>Top news ● 3,123 readers </h5>
           </div>
         </div>
